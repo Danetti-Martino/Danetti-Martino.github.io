@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>Danetti's Portfolio</title>
+<title>Danetti Martino's Portfolio</title>
 <meta charset="UTF-8">
 <link rel="icon" type="image/png" href="/images/favicon.ico">		    
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -117,6 +117,10 @@ Your browser does not support the video tag.
     <hr style="width:50px;border:5px solid red" class="w3-round">
   
     <p>I am Danetti Martino, a sophmore at Palm Desert High School. I am interested with Computer Science, and would like to pursue aerospace engineering at USC or UCSD.</p>
+        <img src="/images/usc.jpg" alt="USC">
+
+
+
   </div>
 
   <!-- The Team 
@@ -158,8 +162,8 @@ Your browser does not support the video tag.
   <div class="w3-container" id="contact" style="margin-top:75px">
     <h1 class="w3-xxxlarge w3-text-red"><b>Contact.</b></h1>
     <hr style="width:50px;border:5px solid red" class="w3-round">
-    <p>Like my projects or want to tell me something; feel free to conact me! Email: danettiLmartino@gmail.com</p>
-    <form action="/action_page.php" target="_blank">
+    <p>Like my projects or want to tell me something; feel free to conact me: Academic Email: danetti.martino@myds.us -- Personal Email: danettiLmartino@gmail.com</p>
+    <form action="/send_form_email.php.html" target="_blank">
       <div class="w3-section">
         <label>Name</label>
         <input class="w3-input w3-border" type="text" name="Name" required>
@@ -173,32 +177,11 @@ Your browser does not support the video tag.
         <input class="w3-input w3-border" type="text" name="Message" required>
       </div>
       <button type="submit" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom">Send Message</button>
-    </form>  
+    </form> 
   </div>
 
 <!-- End page content -->
 </div>
-
-<script>
-// Script to open and close sidebar
-function w3_open() {
-    document.getElementById("mySidebar").style.display = "block";
-    document.getElementById("myOverlay").style.display = "block";
-}
- 
-function w3_close() {
-    document.getElementById("mySidebar").style.display = "none";
-    document.getElementById("myOverlay").style.display = "none";
-}
-
-// Modal Image Gallery
-function onClick(element) {
-  document.getElementById("img01").src = element.src;
-  document.getElementById("modal01").style.display = "block";
-  var captionText = document.getElementById("caption");
-  captionText.innerHTML = element.alt;
-}
-</script>
 
 </body>
 </html>
