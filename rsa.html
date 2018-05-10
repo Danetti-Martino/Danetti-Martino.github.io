@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="UTF-8">
+  <meta name="description" content="Danetti's Portfolio">
+  <meta name="keywords" content="Android App, Portfolio, Projects">
+  <meta name="author" content="Danetti Martino">
+  <meta name="teacher" content="Mr. Landfried">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+<title>Danetti Martino's Portfolio</title>
+<meta charset="UTF-8">
+<link rel="icon" type="image/png" href="/images/favicon.ico">		    
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<link rel="stylesheet" href="">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+</style>
+<body>
+    
+   <ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="projects.html">Projects</a></li>
+  <li><a href="index.html">About Me</a></li>
+  <li><a href="index.html">Contact Me</a></li>
+</ul>
+
+<center>
+
+
+
+ <h2>Python Encryption</h2>
+    <hr style="width:50px;border:5px solid red" class="w3-round">  
+  
+  <p><a href="https://github.com/fabiantrujillo64/RSA_2017_2018">Github Repo. For the RSA Proj.</a></p>
+  <p><a href="/images/RSA-FINAL-201718.zip">Download link for the RSA Proj.</a></p>
+  <br>
+  <p>I encountered many problems while creating our code. To create a while loop, I had created a system where when the user types in anything but exit, the code will repeat. The user’s response to the action menu was interpreted as ‘initial_a’ and if this equaled ‘exit’ the code would continue to ask the menu question. To create the command I used the ‘or’ boolean operator, which turned out to be incorrect. Since my partner was absent, I asked Mr. Lanfried and concluded that the ‘and’ variable was the viable option after a brief explanation of the purposes of the boolean operators. We needed one variable to be correct, so we needed it to read the combination of ‘one right variable and one wrong variable’ as false. This allowed me to exit out of my while loop.</p>
+
+My partner, Fabian, and I encountered and solved many issues with our code. We mutually agreed that we had to make it only accept integers and the right-spelling of words. Together we added ‘if’ and ‘else’ statements so the variable would only accept the values. This solved the problem, however, uppercase responses would not be accepted. My partner and I looked online and discovered a line of code to turn all of the uppercase responses into lower cases. This solved our issue of only allowing the user to input correct responses.
+  </p>
+<h4>Abstraction is shown below:</h4>
+<img src="/images/abstraction.PNG" alt="IMG">
+<p>The abstraction utilizes a variable which took in the user's response, recorded as 'initial_a', and executes what the user chooses. If the user chooses 'exit' then the program will exit 
+out of the while loop and close; however, if the user chooses an alternative such as 'encrypt' or 'decrypt' those options will execute.</p>
+<h4>An algorithim called in another function is shown below:</h4>
+<img src="/images/algoinalgo.PNG" alt="IMG">
+<p>The functions 'decrypt(d,n)' and 'encrypt(e,n)' are defined before the 'run()' function. The 'run()' functions calls the previously mentioned functions to execute certain encryption and decryption tasks.</p>
+  <br>
+  <br>
+  
+  <video width="400" height="400" controls>
+  <source src="/images/PythonHangman.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+  <br>
+  <p>Narration: The video begins with the user answering a prompt asking them to decrypt, encrypt a message or exit the code entirely. The user responds encrypt, then the user follows the steps and encrypt his message. The user then decrypts his message back to his original. The user then exits the code.</p>
+  
+<p>The key creation is shown below:</p>
+<img1>
+<img src="/images/keycreator.jpg" alt="KEY_CREATION" width="800" height="200">
+</img1>
+  <br>
+  <br> 
+  <br>
+  <br>
+</center>
+
+
+
+
+
+
+
+</body>
